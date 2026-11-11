@@ -1,0 +1,15 @@
+{
+  "name": "Ders Takip",
+  "short_name": "Ders Takip",
+  "description": "Özel ders öğrenci, ders ve ücret takibi",
+  "lang": "tr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
