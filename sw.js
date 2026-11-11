@@ -1,6 +1,6 @@
 /* Ders Takip — çevrimdışı çalışma için service worker */
-var ONBELLEK = 'ders-takip-v1';
-var DOSYALAR = ['./', './index.html', './style.css', './calc.js', './app.js', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
+var ONBELLEK = 'ders-takip-v2';
+var DOSYALAR = ['./', './index.html', './style.css', './calc.js', './yedek.js', './app.js', './xlsx.js', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(ONBELLEK).then(function (c) { return c.addAll(DOSYALAR); }).then(function () { return self.skipWaiting(); }));
