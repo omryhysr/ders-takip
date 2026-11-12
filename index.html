@@ -2,34 +2,35 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8">
-  <title>Ders Takip</title>
+  <title>HSE Ders Takip</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#1d4ed8">
+  <meta name="theme-color" content="#A15668">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Ders Takip">
+  <meta name="apple-mobile-web-app-title" content="HSE DERS">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon-192.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="filigran" aria-hidden="true"></div>
   <div id="uygulama">
     <header id="baslik"></header>
     <main id="icerik"></main>
     <nav id="alt-menu">
-      <a href="#/" data-nav="ana"><span class="ikon">⌂</span>Ana sayfa</a>
-      <a href="#/ogrenciler" data-nav="ogrenciler"><span class="ikon">👤</span>Öğrenciler</a>
-      <a href="#/ders/yeni" data-nav="ders"><span class="ikon">＋</span>Ders</a>
-      <a href="#/odeme/yeni" data-nav="odeme"><span class="ikon">₺</span>Ödeme</a>
+      <a href="#/" data-nav="ana"><span class="ikon">⌂</span>Ana Sayfa</a>
+      <a href="#/ozel" data-nav="ozel"><span class="ikon">📖</span>Özel Ders</a>
+      <a href="#/ekle" data-nav="ekle" class="ekle"><span class="ikon">＋</span>Ekle</a>
+      <a href="#/rapor" data-nav="rapor"><span class="ikon">📊</span>Raporlar</a>
       <a href="#/diger" data-nav="diger"><span class="ikon">☰</span>Diğer</a>
     </nav>
   </div>
   <div id="bildirim" hidden></div>
   <script src="calc.js"></script>
   <script src="yedek.js"></script>
-  <script src="xlsx.js"></script>
+  <script src="cicek.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
